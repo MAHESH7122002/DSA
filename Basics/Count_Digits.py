@@ -23,3 +23,4 @@ res2 = optimal(12345)
 print(res1) #TC-O(N) SC-O(1)
 print(res2) #TC-O(1) SC-O(1)
 
+#LINK: https://takeuforward.org/data-structure/count-digits-in-a-number/
