@@ -18,9 +18,10 @@ def optimal(n):
     import math
     return int(math.log10(n))+1
 
-res1 = brute_force(12345)
-res2 = optimal(12345)
-print(res1) #TC-O(N) SC-O(1)
+n=1234
+res1 = brute_force(n)
+res2 = optimal(n)
+print(res1) #TC-O(logN) SC-O(1)
 print(res2) #TC-O(1) SC-O(1)
 
 #LINK: https://takeuforward.org/data-structure/count-digits-in-a-number/
